@@ -29,7 +29,12 @@
                 }
                 else if (command == "hjälp")
                 {
-                    Console.WriteLine($"Tyvärr ej implementerat!");
+                    Console.WriteLine($"plus - addera två tal");
+                    Console.WriteLine($"minus - subtrahera två tal");
+                    Console.WriteLine($"gånger - multiplicera två tal");
+                    Console.WriteLine($"delat - dividera två tal");
+                    Console.WriteLine($"kvadrat - multiplicera tal med sig självt");
+                    Console.WriteLine($"sluta - avsluta programmet");
                 }
                 else if (command == "sluta")
                 {
