@@ -21,6 +21,14 @@ namespace Berakningsprogram
                     double Y = double.Parse(Console.ReadLine());
                     Console.WriteLine($"{X} + {Y} = {X + Y}");
                 }
+                if (command == "minus")
+                {
+                    Console.Write("tal 1: ");
+                    double X = double.Parse(Console.ReadLine());
+                    Console.Write("tal 2: ");
+                    double Y = double.Parse(Console.ReadLine());
+                    Console.WriteLine($"{X} - {Y} = {X - Y}");
+                }
                 else if (command == "gånger")
                 {
                     Console.Write("tal 1: ");
